@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar'
 import Experience from './components/Experience/Experience'
 import Projects from './components/Projects/Projects'
-import ClientShowcase from './components/ClientShowcase/ClientShowcase'
+// import ClientShowcase from './components/ClientShowcase/ClientShowcase'
 // // Silk background
 // // @ts-ignore - provided by jsrepo asset (no types)
 // import Silk from './components/Backgrounds/Silk/Silk.jsx'
@@ -130,16 +130,16 @@ function App() {
             <Projects />
           </section>
 
-          <section id="clients" className="content-section clients-section fade-in-section">
+          {/* <section id="clients" className="content-section clients-section fade-in-section">
             <div className="section-header">
               <h2 className="section-title">Client Websites</h2>
               <div className="section-divider"></div>
               <p className="section-subtitle">
-                Businesses and organizations I've helped establish their digital presence
+                Businesses and organizations I've helped establish their digital presence 
               </p>
             </div>
             <ClientShowcase />
-          </section>
+          </section> */}
 
           {/* Services section temporarily removed to keep focus purely personal */}
 

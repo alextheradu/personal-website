@@ -30,16 +30,16 @@ const Experience: React.FC = () => {
         <div className="exp-item">
           <div className="exp-dot" />
           <div className="exp-content">
-            <h3>Full Stack Developer @ Open Source</h3>
-            <span className="exp-date">2024 - Present</span>
-            <p>Posted many open source projects, collaborated with other developers, and contributed to various repositories.</p>
+            <h3>Apps Lead @ Pascack Pi-oneers</h3>
+            <span className="exp-date">2025 - Present</span>
+            <p>Lead the Apps Project Group in the Pascack Pi-oneers (FRC 1676) team.</p>
           </div>
         </div>
         <div className="exp-item">
           <div className="exp-dot" />
           <div className="exp-content">
-            <h3>Honors Computer Science Student @ PHHS</h3>
-            <span className="exp-date">2024 - Present</span>
+            <h3>AP Computer Science Student @ PHHS</h3>
+            <span className="exp-date">2025 - 2026</span>
             <p>Learned many universal computer science concepts and Java.</p>
           </div>
         </div>

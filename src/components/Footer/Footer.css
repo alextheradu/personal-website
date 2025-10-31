@@ -1,9 +1,21 @@
 .footer {  
-  margin-top: 1rem; /* Much tighter spacing */
+  margin-top: 1rem;
   padding: 2rem 1.5rem 2rem 1.5rem;
-  background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
-  backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.35) 100%);
+  backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(108, 99, 255, 0.3);
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(108, 99, 255, 0.5) 20%, rgba(0, 193, 255, 0.5) 80%, transparent);
 }
 
 .footer-content {  
@@ -27,22 +39,25 @@
   font-size: 1.15rem;  
   font-weight: 600;  
   text-decoration: none;  
-  background: linear-gradient(90deg, #6C63FF, #00C1FF);  
+  background: linear-gradient(135deg, #6C63FF 0%, #8B7FFF 50%, #00C1FF 100%);  
   -webkit-background-clip: text;  
   background-clip: text;  
   color: transparent;  
   letter-spacing: 0.02em;  
-  transition: all 0.3s ease;  
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 8px rgba(108, 99, 255, 0.3));
+  position: relative;
 }
 .footer-email-link:hover {  
-  transform: translateY(-1px);  
-  filter: brightness(1.1);  
+  transform: translateY(-2px);  
+  filter: drop-shadow(0 4px 12px rgba(108, 99, 255, 0.5)) brightness(1.15);
 }
 .footer-divider {  
-  width: 60px;  
-  height: 1px;  
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);  
-  margin: 1.25rem auto 1.25rem;  
+  width: 80px;  
+  height: 2px;  
+  background: linear-gradient(90deg, transparent, rgba(108, 99, 255, 0.6), rgba(0, 193, 255, 0.6), transparent);  
+  margin: 1.25rem auto 1.25rem;
+  box-shadow: 0 2px 12px rgba(108, 99, 255, 0.3);
 }
 .footer-info {  
   opacity: 0.75;  

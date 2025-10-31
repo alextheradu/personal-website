@@ -11,16 +11,16 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'OpenAI Email Sender',
-    description: 'A realtime app that composes and sends personalized emails using OpenAI.',
-    tech: ['Python', 'OpenAI', 'JSON', 'CLI'],
-    repo: 'https://github.com/alextheradu/OpenAI-Email-Sender'
+    title: 'Personal Website',
+    description: 'A personal website showcasing my projects and skills (the website you are on now).',
+    tech: ['React', 'TypeScript', 'CSS'],
+    repo: 'https://github.com/alextheradu/personal-website'
   },
   {
-    title: 'Honors Computer Science',
-    description: 'A repository full of most of my High School computer science projects in Java.',
-    tech: ['Java'],
-    repo: 'https://github.com/alextheradu/CS-Projects'
+    title: 'AceIt',
+    description: 'A flashcard studying app which is free to use and open source.',
+    tech: ['Svelte, TypeScript', 'CSS', 'SQL'],
+    repo: 'https://github.com/PioneersTeam1676/aceit'
   },
   {
     title: 'FRC Tree',
